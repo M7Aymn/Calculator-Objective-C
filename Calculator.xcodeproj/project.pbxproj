@@ -14,10 +14,11 @@
 		C670EFB52C3B06BD0006A55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C670EFB42C3B06BD0006A55A /* Assets.xcassets */; };
 		C670EFB82C3B06BD0006A55A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C670EFB72C3B06BD0006A55A /* Base */; };
 		C670EFBB2C3B06BD0006A55A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C670EFBA2C3B06BD0006A55A /* main.m */; };
+		C6E2C0D12C3BDA6800201CCD /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E2C0D02C3BDA6800201CCD /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C670EFA52C3B06BC0006A55A /* Day1-Task6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day1-Task6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C670EFA52C3B06BC0006A55A /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C670EFA82C3B06BC0006A55A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C670EFA92C3B06BC0006A55A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C670EFAB2C3B06BC0006A55A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +30,8 @@
 		C670EFB72C3B06BD0006A55A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C670EFB92C3B06BD0006A55A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C670EFBA2C3B06BD0006A55A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6E2C0CF2C3BDA6800201CCD /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		C6E2C0D02C3BDA6800201CCD /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +48,7 @@
 		C670EF9C2C3B06BC0006A55A = {
 			isa = PBXGroup;
 			children = (
-				C670EFA72C3B06BC0006A55A /* Day1-Task6 */,
+				C670EFA72C3B06BC0006A55A /* Calculator */,
 				C670EFA62C3B06BC0006A55A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,12 +56,12 @@
 		C670EFA62C3B06BC0006A55A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C670EFA52C3B06BC0006A55A /* Day1-Task6.app */,
+				C670EFA52C3B06BC0006A55A /* Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C670EFA72C3B06BC0006A55A /* Day1-Task6 */ = {
+		C670EFA72C3B06BC0006A55A /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
 				C670EFA82C3B06BC0006A55A /* AppDelegate.h */,
@@ -72,16 +75,18 @@
 				C670EFB62C3B06BD0006A55A /* LaunchScreen.storyboard */,
 				C670EFB92C3B06BD0006A55A /* Info.plist */,
 				C670EFBA2C3B06BD0006A55A /* main.m */,
+				C6E2C0CF2C3BDA6800201CCD /* Calculator.h */,
+				C6E2C0D02C3BDA6800201CCD /* Calculator.m */,
 			);
-			path = "Day1-Task6";
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C670EFA42C3B06BC0006A55A /* Day1-Task6 */ = {
+		C670EFA42C3B06BC0006A55A /* Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C670EFBE2C3B06BD0006A55A /* Build configuration list for PBXNativeTarget "Day1-Task6" */;
+			buildConfigurationList = C670EFBE2C3B06BD0006A55A /* Build configuration list for PBXNativeTarget "Calculator" */;
 			buildPhases = (
 				C670EFA12C3B06BC0006A55A /* Sources */,
 				C670EFA22C3B06BC0006A55A /* Frameworks */,
@@ -91,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = "Day1-Task6";
+			name = Calculator;
 			productName = "Day1-Task6";
-			productReference = C670EFA52C3B06BC0006A55A /* Day1-Task6.app */;
+			productReference = C670EFA52C3B06BC0006A55A /* Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C670EFA02C3B06BC0006A55A /* Build configuration list for PBXProject "Day1-Task6" */;
+			buildConfigurationList = C670EFA02C3B06BC0006A55A /* Build configuration list for PBXProject "Calculator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C670EFA42C3B06BC0006A55A /* Day1-Task6 */,
+				C670EFA42C3B06BC0006A55A /* Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -150,6 +155,7 @@
 				C670EFAA2C3B06BC0006A55A /* AppDelegate.m in Sources */,
 				C670EFBB2C3B06BD0006A55A /* main.m in Sources */,
 				C670EFAD2C3B06BC0006A55A /* SceneDelegate.m in Sources */,
+				C6E2C0D12C3BDA6800201CCD /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,19 +304,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Day1-Task6/Info.plist";
+				INFOPLIST_FILE = Calculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.m7aymn.Day1-Task6";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m7aymn.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,19 +331,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Day1-Task6/Info.plist";
+				INFOPLIST_FILE = Calculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.m7aymn.Day1-Task6";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m7aymn.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C670EFA02C3B06BC0006A55A /* Build configuration list for PBXProject "Day1-Task6" */ = {
+		C670EFA02C3B06BC0006A55A /* Build configuration list for PBXProject "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C670EFBC2C3B06BD0006A55A /* Debug */,
@@ -355,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C670EFBE2C3B06BD0006A55A /* Build configuration list for PBXNativeTarget "Day1-Task6" */ = {
+		C670EFBE2C3B06BD0006A55A /* Build configuration list for PBXNativeTarget "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C670EFBF2C3B06BD0006A55A /* Debug */,
